@@ -1,0 +1,11 @@
+GL-Type 3D mesh: (Geometry only)
+Vertex List (Each entry is a vertex with X,Y,Z coordinate) i.e. 0,1,2,2,1,3,2,4 ... - starts with index 0!
+Vertex Index (long list with vertices, called by their list index position) i.e. (0) 1.3 0 5, (1) 2.5 0.1 3 ... 
+
+Wavefront OBJ 3D model (minimum viable):
+Vertices (v x y z\r...) 3D points with x,y,z)
+Faces (f v1 v2 v3\r) Connected Vertices - starts with index 1!
+
+GL to OBJ: (3D model only)
+OBJ Vertices = GL Vertex List (i.e. v 0.335 1.522 2.222)
+OBJ Faces = Walk through the GL vertex index in groups of three (i.e. f 0 1 2\n f 2 3 1 at an GL index of 0,1,2,2,3,1)
