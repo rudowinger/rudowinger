@@ -5,10 +5,11 @@
 "P3H" => "short,short,short,short", // position (4)
 "Q4H_T2H" => "floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // tangentAsQuat(4), uv(2)
 "Q4H_T2H_T2H" => "floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // tangentAsQuat(4), uv(2) , uv(2)
-"Q4H_T2H_T2H_T4H" => "floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", //tangentAsQuat(4), uv(2), uv(2), uv(4)
+"Q4H_T2H_T4H" => "floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // tangentAsQuat(4), uv(2), uv(4)
 "P3F_N4B_T2F" => "float,float,float,byte,byte,byte,byte,float,float", // position (3), normal(4), uv(2)
 "C4B_Q4H_T2H" => "ubyte,ubyte,ubyte,ubyte,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // color(4), tangentAsQuat(4), uv(2)
 "C4B_Q4H_T2H_T2H" => "ubyte,ubyte,ubyte,ubyte,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // color(4), tangentAsQuat(4), uv(2), uv(2)
+"Q4H_T2H_T2H_T4H" => "floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", //tangentAsQuat(4), uv(2), uv(2), uv(4)
 "N4B_T2H_T2H" => "byte,byte,byte,byte,floathalf,floathalf,floathalf,floathalf", // normal(4), uv(2) , uv(2)
 
 Legend:
