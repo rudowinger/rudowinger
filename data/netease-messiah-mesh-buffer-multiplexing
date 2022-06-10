@@ -12,6 +12,7 @@
 "C4B_Q4H_T2H_T4H" => "ubyte,ubyte,ubyte,ubyte,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // color(4), tangentAsQuat(4), uv(2), uv(4)
 "Q4H_T2H_T2H_T4H" => "floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", //tangentAsQuat(4), uv(2), uv(2), uv(4)
 "N4B_T2H_T2H" => "byte,byte,byte,byte,floathalf,floathalf,floathalf,floathalf", // normal(4), uv(2) , uv(2)
+"N4B_T2H_T4H" => "byte,byte,byte,byte,floathalf,floathalf,floathalf,floathalf,floathalf,floathalf", // normal(4), uv(2) , uv(4)
 
 Legend:
 "Method" => "Data Type List", // Description: data point (number of data entries, i.e. short,short = (2x short); float,float,float,float = (4x float) )
